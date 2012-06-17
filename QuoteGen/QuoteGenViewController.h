@@ -10,4 +10,13 @@
 
 @interface QuoteGenViewController : UIViewController
 
+@property (nonatomic, strong) NSArray *myQuotes;
+@property (nonatomic, strong) NSMutableArray *movieQuotes;
+
+@property (nonatomic, strong) IBOutlet UITextView *quote_text;
+
+@property (nonatomic, strong) IBOutlet UISegmentedControl *quote_opt;
+
+-(IBAction)quote_btn_touch:(id)sender;
+
 @end

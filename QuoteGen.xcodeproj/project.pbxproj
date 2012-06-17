@@ -20,6 +20,8 @@
 		A3E8B5BE158DA6FD00AD687F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E8B59F158DA6FD00AD687F /* Foundation.framework */; };
 		A3E8B5C6158DA6FD00AD687F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3E8B5C4158DA6FD00AD687F /* InfoPlist.strings */; };
 		A3E8B5C9158DA6FD00AD687F /* QuoteGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E8B5C8158DA6FD00AD687F /* QuoteGenTests.m */; };
+		A3E8B5D7158E2DD800AD687F /* SMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E8B5D6158E2DD800AD687F /* SMNote.m */; };
+		A3E8B5D9158E2E2300AD687F /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3E8B5D8158E2E2300AD687F /* quotes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		A3E8B59D158DA6FD00AD687F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3E8B59F158DA6FD00AD687F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3E8B5A1158DA6FD00AD687F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3E8B5A5158DA6FD00AD687F /* QuoteGen-Info.plist */ = {isa = PBXFileReference; path = "QuoteGen-Info.plist"; sourceTree = "<group>"; };
+		A3E8B5A5158DA6FD00AD687F /* QuoteGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuoteGen-Info.plist"; sourceTree = "<group>"; };
 		A3E8B5A7158DA6FD00AD687F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3E8B5A9158DA6FD00AD687F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3E8B5AB158DA6FD00AD687F /* QuoteGen-Prefix.pch */ = {isa = PBXFileReference; path = "QuoteGen-Prefix.pch"; sourceTree = "<group>"; };
-		A3E8B5AC158DA6FD00AD687F /* QuoteGenAppDelegate.h */ = {isa = PBXFileReference; path = QuoteGenAppDelegate.h; sourceTree = "<group>"; };
+		A3E8B5AB158DA6FD00AD687F /* QuoteGen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuoteGen-Prefix.pch"; sourceTree = "<group>"; };
+		A3E8B5AC158DA6FD00AD687F /* QuoteGenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteGenAppDelegate.h; sourceTree = "<group>"; };
 		A3E8B5AD158DA6FD00AD687F /* QuoteGenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteGenAppDelegate.m; sourceTree = "<group>"; };
-		A3E8B5AF158DA6FD00AD687F /* QuoteGenViewController.h */ = {isa = PBXFileReference; path = QuoteGenViewController.h; sourceTree = "<group>"; };
+		A3E8B5AF158DA6FD00AD687F /* QuoteGenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteGenViewController.h; sourceTree = "<group>"; };
 		A3E8B5B0158DA6FD00AD687F /* QuoteGenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteGenViewController.m; sourceTree = "<group>"; };
 		A3E8B5B3158DA6FD00AD687F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuoteGenViewController.xib; sourceTree = "<group>"; };
 		A3E8B5BA158DA6FD00AD687F /* QuoteGenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteGenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E8B5BB158DA6FD00AD687F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A3E8B5C3158DA6FD00AD687F /* QuoteGenTests-Info.plist */ = {isa = PBXFileReference; path = "QuoteGenTests-Info.plist"; sourceTree = "<group>"; };
+		A3E8B5C3158DA6FD00AD687F /* QuoteGenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuoteGenTests-Info.plist"; sourceTree = "<group>"; };
 		A3E8B5C5158DA6FD00AD687F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A3E8B5C7158DA6FD00AD687F /* QuoteGenTests.h */ = {isa = PBXFileReference; path = QuoteGenTests.h; sourceTree = "<group>"; };
+		A3E8B5C7158DA6FD00AD687F /* QuoteGenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteGenTests.h; sourceTree = "<group>"; };
 		A3E8B5C8158DA6FD00AD687F /* QuoteGenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteGenTests.m; sourceTree = "<group>"; };
+		A3E8B5D5158E2DD800AD687F /* SMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNote.h; sourceTree = "<group>"; };
+		A3E8B5D6158E2DD800AD687F /* SMNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMNote.m; sourceTree = "<group>"; };
+		A3E8B5D8158E2E2300AD687F /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		A3E8B58E158DA6FC00AD687F = {
 			isa = PBXGroup;
 			children = (
+				A3E8B5D8158E2E2300AD687F /* quotes.plist */,
+				A3E8B5D5158E2DD800AD687F /* SMNote.h */,
+				A3E8B5D6158E2DD800AD687F /* SMNote.m */,
 				A3E8B5A3158DA6FD00AD687F /* QuoteGen */,
 				A3E8B5C1158DA6FD00AD687F /* QuoteGenTests */,
 				A3E8B59C158DA6FD00AD687F /* Frameworks */,
@@ -224,6 +232,7 @@
 			files = (
 				A3E8B5A8158DA6FD00AD687F /* InfoPlist.strings in Resources */,
 				A3E8B5B4158DA6FD00AD687F /* QuoteGenViewController.xib in Resources */,
+				A3E8B5D9158E2E2300AD687F /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				A3E8B5AA158DA6FD00AD687F /* main.m in Sources */,
 				A3E8B5AE158DA6FD00AD687F /* QuoteGenAppDelegate.m in Sources */,
 				A3E8B5B1158DA6FD00AD687F /* QuoteGenViewController.m in Sources */,
+				A3E8B5D7158E2DD800AD687F /* SMNote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

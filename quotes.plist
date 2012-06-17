@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    
+    <array>
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Frankly, my dear, I don't give a damn.</string>
+            <key>source</key>  <string>Gone With the Wind</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Here's looking at you, kid.</string>
+            <key>source</key>  <string>Casablanca</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>There's no place like home.</string>
+            <key>source</key>  <string>The Wizard of Oz</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Play it again, Sam.</string>
+            <key>source</key>  <string>Casablanca</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Elementary, my dear Watson.</string>
+            <key>source</key>  <string>Sherlock Holmes</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Go ahead, make my day.</string>
+            <key>source</key>  <string>Dirty Harry</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>May the Force be with you.</string>
+            <key>source</key>  <string>Star Wars</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Hasta la vista, baby.</string>
+            <key>source</key>  <string>Terminator 2: Judgement Day</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.</string>
+            <key>source</key>  <string>Harry Potter and the Sorcerer's Stone</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>I solemnly swear that I am up to no good.</string>
+            <key>source</key>  <string>Harry Potter and the Prisoner of Azkaban</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>You like pain? Try wearing a corset.</string>
+            <key>source</key>  <string>Pirates of the Caribbean</string>
+        </dict>
+    </array>
+</plist>
